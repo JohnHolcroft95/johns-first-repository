@@ -1,0 +1,48 @@
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 0;
+	
+}
+
+.box {
+	width: 100%px;
+	height: 150px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: block;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size:20px;
+	vertical-align: middle;
+	margin:0;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-size:16px;
+	margin:0;
+}
+#sidebar {
+	width: 280px;
+	height: 150px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#content {
+	width: 640px;
+	height: 150px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
