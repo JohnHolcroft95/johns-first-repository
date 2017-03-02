@@ -1,0 +1,87 @@
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 0;
+	
+}
+
+.box {
+	width: 100%px;
+	height: 150px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: block;
+	
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size:20px;
+	vertical-align: middle;
+	margin:0;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-size:16px;
+	margin:0;
+	padding: 10px;
+}
+p {
+	text-align: center;
+	color: white;
+	font-size:12px;
+	margin:0;
+}
+#sidebar {
+	width: 300px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom:20px;
+	border-width: 10px;
+	border-color: #5AEDEB;
+	border-style: dotted;
+
+	
+}
+
+#content {
+	width: 600px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom:50px;
+	position: relative;
+
+
+
+}
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#linkToTop {
+	height: 50px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+    right: 0px;
+}
