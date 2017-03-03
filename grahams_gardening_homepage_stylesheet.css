@@ -1,0 +1,138 @@
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	border-radius: 10px;
+	font-size: 0;
+	padding: 10px;	
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	margin: 0;
+	display: block;
+	position: fixed;
+	z-index: 100;
+	font-size: 0;
+	box-shadow: 0px 5px 5px grey;
+	top: 0;
+	left: 0;
+}
+#slider {
+	width: 100%;
+	height: 650px;
+	background-image: url("https://static.pexels.com/photos/94762/pexels-photo-94762.jpeg");
+	margin: 0px;
+	display: block;
+	z-index: 100;
+	font-size: 0;
+	background-color: #cccccc;
+	padding-top: 110px;
+	padding-right: 0;
+	padding-left: 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    left: 0;
+    right: 0;
+
+}
+#footer {
+	width: 100%;
+	height: 150px;
+	background-color: #9748D4;
+	margin: 10px;
+	border-radius: 10px;
+	display: block;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size:20px;
+	vertical-align: middle;
+	margin:0;
+}
+h2 {
+	text-align: center;
+	color: #485C63;
+	font-size:30px;
+	margin:0;
+	padding: 10px;
+	font-family: Sansita;
+}
+p {
+	text-align: center;
+	color: #485C63;
+	font-size:12px;
+	margin:0;
+	font-family: Sansita;
+}
+.feature {
+	width: 293.333px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom:20px;
+	box-shadow: 0px 0px 10px grey;
+}
+
+.content {
+	width: 100%;
+	background-color: #9748D4;
+	margin: 0px;
+	display: block;
+	vertical-align: top;
+	padding: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    display: flex;
+}
+#linkToTop {
+	height: 50px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+    right: 0px;
+}
+.feature_image {
+	height: 100px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	position: inline;
+}
+#slider_text {
+	height: auto;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 300px;
+}
+#slider_text h1{
+	text-align: left;
+	color: white;
+	font-size:60px;
+	margin:0;
+	padding: 10px;
+	font-family: Sansita;
+
+}
