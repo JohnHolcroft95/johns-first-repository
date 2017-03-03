@@ -37,7 +37,7 @@ p {
 	font-size:12px;
 	margin:0;
 }
-#sidebar {
+.sidebar {
 	width: 300px;
 	background-color: #9748D4;
 	margin: 10px;
@@ -49,12 +49,10 @@ p {
 	padding-bottom:20px;
 	border-width: 10px;
 	border-color: #5AEDEB;
-	border-style: dotted;
-
-	
+	border-style: dotted;	
 }
 
-#content {
+.content {
 	width: 600px;
 	background-color: #9748D4;
 	margin: 10px;
@@ -64,12 +62,31 @@ p {
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 10px;
-	padding-bottom:20px;
-
+	padding-bottom:50px;
+	position: relative;
 
 }
 div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+#linkToTop {
+	height: 50px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+    right: -80px;
+}
+body{
+	background-image: url("http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web1.jpg");
+	background-size: contain;
+}
+.content video{
+	width: 500px;
+	margin-right:auto;
+	margin-left: auto;
 }
